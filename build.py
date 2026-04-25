@@ -524,7 +524,7 @@ function renderCountdown(f){{
       </div>
       <div style="display:flex;align-items:flex-end;gap:16px" onclick="openModal('${{n.id}}')">
         <div>
-          <div class="countdown-days" style="color:${{d<=7?'#ef4444':d<=14?'#f59e0b':'var(--brand)}}">${{d===0?'今天':d}}</div>
+          <div class="countdown-days" style="color:${{d<=7?'#ef4444':d<=14?'#f59e0b':'var(--brand)'}}">${{d===0?'今天':d}}</div>
           <div class="countdown-label">${{d===0?'':d===1?'明天':'天後'}}</div>
         </div>
         <div style="flex:1">
